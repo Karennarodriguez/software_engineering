@@ -40,4 +40,9 @@ remove:
 	rm $(PTML_DIR)/*~
 	rm $(PTML_DIR)/.*swp
 
-clean: touch $(PTML_DIR)/*.ptml; make local
+dev_env:
+	echo "Installing developer requirements"
+	#will fill in the actual install as we work on the project
+
+clean: 
+	touch $(PTML_DIR)/*.ptml; make local

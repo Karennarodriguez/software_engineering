@@ -10,15 +10,16 @@ Currently, 'make prod' commits and pushes to GitHub, and 'make dev_end' executes
 
 **Actionable Requirements**
 There are two types of users for this system: community members and local organizations.
-*Each user can:*
-  Register in the system
-  Create a profile
-*Users of type Local Organization can:*
-  Create an event
-  Create a post
-*Users of type Community Member can:*
-  Comment on a post
-  Save an event and a post
+* Each user can:
+  * Register in the system
+  * Create a profile
+* Users of type Local Organization can:
+  * Create an event
+  * Create a post
+* Users of type Community Member can:
+  * Comment on a post
+  * Save an event
+  * Save a post
   
   
   

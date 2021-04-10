@@ -18,8 +18,10 @@ There are two types of users for this system: community members and local organi
   * Create a post
 * Users of type Community Member can:
   * Comment on a post
+  * Like a post
   * Save an event
   * Save a post
+ 
   
   
   

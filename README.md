@@ -5,7 +5,7 @@ Our project’s aim is to create a client-server project that acts as a communit
 We want to enable Login capabilities for users. For extra functionality, we would like all users to be able to chat with one another in a public commenting section, as well as send private messages to one another. Additionally, users should be able to make posts, like posts (so that they can refer back to them later on), and share them through any medium.
 
 **SETUP**
-Currently, 'make prod' commits and pushes to GitHub, and 'make dev_end' executes the announcement "Installing developer requirements". Later on, what it will do is download everything you need to run the environment.
+Currently, `make prod` commits and pushes to GitHub, and `make dev_end` executes the announcement "Installing developer requirements". Later on, what it will do is download everything you need to run the environment.
 
 
 **Actionable Requirements**

@@ -14,8 +14,8 @@ There are two types of users for this system: community members and local organi
   * Register in the system
   * Create a profile
 * Users of type Local Organization can:
-  * Create an event
-  * Create a post
+  * Create an event, require users to show up & allows for reservations 
+  * Create a post, informs users
   * Modify a post 
   * Delete a post 
 * Users of type Community Member can:

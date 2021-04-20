@@ -16,11 +16,13 @@ There are two types of users for this system: community members and local organi
 * Users of type Local Organization can:
   * Create an event
   * Create a post
+  * Modify a post 
+  * Delete a post 
 * Users of type Community Member can:
   * Comment on a post
   * Like a post
   * Save an event
-  * Save a post
+  * Bookmark a post
  
   
   

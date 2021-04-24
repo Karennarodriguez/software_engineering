@@ -24,16 +24,16 @@ There are two types of users for this system: community members and local organi
     * change basic account information (i.e. profile picture, username, display name, password, etc.)
 * Users of type Local Organization can:
   * Create a post
-    * 	A post is an informational graphic or description of issues that may be occurring within a specific community. It can also be an ad promoting a certain cause or event. Within a post you can incorporate text, images, gifs, etc. 
+    * A post is an informational graphic or description of issues that may be occurring within a specific community. It can also be an ad promoting a certain cause or event. Within a post you can incorporate text, images, gifs, etc. 
   * Modify a post 
-    * 	Allows user to make edits to all parts of a post. They can modify the text or remove/change attachments to their post. 
+    * Allows user to make edits to all parts of a post. They can modify the text or remove/change attachments to their post. 
   * Delete a post 
-    * 	Removes a post from the organization’s account and their follower’s feed. 
+    * Removes a post from the organization’s account and their follower’s feed. 
     
   * Create an event
     * An event is a specific type of post that gives users of the type community member the ability to learn about what’s occurring in their community and make a reservation to attend or help out for the event. 
   * Modify an event
-    * 	Allows the organization that created the post to change the date/time, description, etc. 
+    * Allows the organization that created the post to change the date/time, description, etc. 
   * Cancel an event 
     * Notifies users who made reservations for the event that it has been cancelled. 
   

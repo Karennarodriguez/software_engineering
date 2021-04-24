@@ -19,7 +19,7 @@ There are two types of users for this system: community members and local organi
       * If a username already exists, the community member will be notified to change it.
       * Email must be verified before having full access to the website.
   * Delete an account
-    * user information used to create the account (i.e. email,password,display name, etc.) will be wiped from our databases and can be used in the future.
+    * User information used to create the account (i.e. email,password,display name, etc.) will be wiped from our databases. If user wishes to create an account again, they will be able to reuse the email they had initially used.
   * Modify an account:
     * change basic account information (i.e. profile picture, username, display name, password, etc.)
 * Users of type Local Organization can:
@@ -45,7 +45,7 @@ There are two types of users for this system: community members and local organi
   * Bookmark a post and/or event
     * Another way a user can react to a post created by a local organization. To 'bookmark' a post and/or event means the user is interested on what has been uploaded by the organization. This will be saved on their profile tab, giving them easy access to go back to such post/event. 
   * Follow an event
-    * Another way a user can react to a post created by a local organization. To 'follow' an event means the user is going to attend. The user receive updates and notifications on the event made by the organizations, as well as other users that are attending. A user also has the ability to 'unfollow' an event.  
+    * Another way a user can react to a post created by a local organization. To 'follow' an event means the user is going to attend. The user receive updates and notifications on the event made by the organizations, as well as other users that are attending. A user also has the ability to 'unfollow' an event. Events that are followed will be displayed on the home page.
  
   
   

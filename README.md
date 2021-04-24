@@ -12,10 +12,16 @@ Currently, `make prod` commits and pushes to GitHub, and `make dev_env` executes
 There are two types of users for this system: community members and local organizations.
 * Each user can:
   * Register in the system
+    * Local organizations would need to be verified by our database.
+      * Upon registering, they will need to provide a display name and a description about their organizations.
+      * Multiple people within the organization can have access to the account but will need to be verified each time they are logged out of the system. 
+    * Aside from an email and password, a community member must provide a zipcode when registering.
+      * If a username already exists, the community member will be notified to change it.
+      * Email must be verified before having full access to the website.
   * Delete an account
+    * user information used to create the account (i.e. email,password,display name, etc.) will be wiped from our databases and can be used in the future.
   * Modify an account:
-    * change basic account information (i.e. profile picture, username, display name, password, etc.
-   
+    * change basic account information (i.e. profile picture, username, display name, password, etc.)
 * Users of type Local Organization can:
   * Create an event, require users to show up & allows for reservations 
   * Create a post, informs users

@@ -12,7 +12,10 @@ Currently, `make prod` commits and pushes to GitHub, and `make dev_env` executes
 There are two types of users for this system: community members and local organizations.
 * Each user can:
   * Register in the system
-  * Create a profile
+  * Delete an account
+  * Modify an account:
+    * change basic account information (i.e. profile picture, username, display name, password, etc.
+   
 * Users of type Local Organization can:
   * Create an event, require users to show up & allows for reservations 
   * Create a post, informs users

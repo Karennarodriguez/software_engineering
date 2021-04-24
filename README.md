@@ -24,25 +24,28 @@ There are two types of users for this system: community members and local organi
     * change basic account information (i.e. profile picture, username, display name, password, etc.)
 * Users of type Local Organization can:
   * Create a post
-    * A post is an informational graphic or description of issues that may be occurring within a specific community. It can also be an ad promoting a certain cause or event. Within a post you can incorporate text, images, gifs, etc. 
+    * 	A post is an informational graphic or description of issues that may be occurring within a specific community. It can also be an ad promoting a certain cause or event. Within a post you can incorporate text, images, gifs, etc. 
   * Modify a post 
-    * Allows user to make edits to all parts of a post. They can modify the text or remove/change attachments to their post. 
+    * 	Allows user to make edits to all parts of a post. They can modify the text or remove/change attachments to their post. 
   * Delete a post 
-    * Removes a post from the organization’s account and their follower’s feed. 
-    
+    * 	Removes a post from the organization’s account and their follower’s feed.  
   * Create an event
     * An event is a specific type of post that gives users of the type community member the ability to learn about what’s occurring in their community and make a reservation to attend or help out for the event. 
   * Modify an event
-    * Allows the organization that created the post to change the date/time, description, etc. 
+    * 	Allows the organization that created the post to change the date/time, description, etc. 
   * Cancel an event 
-    * Notifies users who made reservations for the event that it has been cancelled. 
-  
- 
+    * Notifies users who made reservations for the event that it has been cancelled.  
 * Users of type Community Member can:
   * Comment on a post
+    * Users can react to a post created by a local organization. This is where users can leave any questions in regards to the post or questions they would like the organizations to answer.
   * Like a post
+    * Another way a user can react to a post created by a local organization. A 'like' of a post represents that the user is interested on what has been uploaded by the organization when scrolling through the main feed. The posts that are liked are saved and only the user can access them in the future. The 'liked' posts are found in the account settings under profile.
   * Save an event
-  * Bookmark a post
+    * Another way a user can react to a post created by a local organization. Saving an event means that the user is interested in attending the event. They have yet to confirm full attendance, but will start receiving updates and notifications made by the organizers. 
+  * Bookmark a post and/or event
+    * Another way a user can react to a post created by a local organization. To 'bookmark' a post and/or event means the user is interested on what has been uploaded by the organization. This will be saved on their profile tab, giving them easy access to go back to such post/event. 
+  * Follow an event
+    * Another way a user can react to a post created by a local organization. To 'follow' an event means the user is going to attend. The user receive updates and notifications on the event made by the organizations, as well as other users that are attending. A user also has the ability to 'unfollow' an event.  
  
   
   

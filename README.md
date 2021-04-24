@@ -19,7 +19,7 @@ There are two types of users for this system: community members and local organi
       * If a username already exists, the community member will be notified to change it.
       * Email must be verified before having full access to the website.
   * Delete an account
-    * User information used to create the account (i.e. email,password,display name, etc.) will be wiped from our databases. If user wishes to create an account again, they will be able to reuse the email they had initially used.
+    * user information used to create the account (i.e. email,password,display name, etc.) will be wiped from our databases and can be used in the future.
   * Modify an account:
     * change basic account information (i.e. profile picture, username, display name, password, etc.)
 * Users of type Local Organization can:
@@ -39,13 +39,11 @@ There are two types of users for this system: community members and local organi
   * Comment on a post
     * Users can react to a post created by a local organization. This is where users can leave any questions in regards to the post or questions they would like the organizations to answer.
   * Like a post
-    * Another way a user can react to a post created by a local organization. A 'like' of a post represents that the user is interested on what has been uploaded by the organization when scrolling through the main feed. The posts that are liked are saved and only the user can access them in the future. The 'liked' posts are found in the account settings under profile.
-  * Save an event
-    * Another way a user can react to a post created by a local organization. Saving an event means that the user is interested in attending the event. They have yet to confirm full attendance, but will start receiving updates and notifications made by the organizers. 
-  * Bookmark a post and/or event
-    * Another way a user can react to a post created by a local organization. To 'bookmark' a post and/or event means the user is interested on what has been uploaded by the organization. This will be saved on their profile tab, giving them easy access to go back to such post/event. 
+    * Another way a user can react to a post created by a local organization. A 'like' of a post represents that the user is interested on what has been uploaded by the organization when scrolling through the main feed. The posts that are liked are saved and only the user can access them in the future. The 'liked' posts are found in the account settings under profile. This has the lowest priority of all saved posts.
+  * Save/Bookmark a post and/or an event
+    * Another way a user can react to a post created by a local organization. Saving/Bookmarking a post/event means that the user is interested in attending the event or that the user is interested in the post uploaded by the organization. In the case of an event, users have yet to confirm full attendance, but will start receiving updates and notifications made by the organizers. This will be saved on their profile tab, giving them easy access to go back to the post/event. 
   * Follow an event
-    * Another way a user can react to a post created by a local organization. To 'follow' an event means the user is going to attend. The user receive updates and notifications on the event made by the organizations, as well as other users that are attending. A user also has the ability to 'unfollow' an event. Events that are followed will be displayed on the home page.
+    * Another way a user can react to a post created by a local organization. To 'follow' an event means the user is going to attend. The user receive updates and notifications on the event made by the organizations, as well as other users that are attending. A user also has the ability to 'unfollow' an event. The followed event will be saved on the homepage, such that a user may have easy and quick access to it.
  
   
   

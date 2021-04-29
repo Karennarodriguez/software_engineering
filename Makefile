@@ -45,6 +45,7 @@ run:
 
 dev_env:
 	@echo "Installing developer requirements"
+	pip3 install django
 	#will fill in the actual install as we work on the project
 
 clean: 

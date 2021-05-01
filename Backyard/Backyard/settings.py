@@ -27,9 +27,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-SECRET_KEY = env("SECRET_KEY")
 
-ALLOWED_HOSTS = []
+#SECRET_KEY = env("SECRET_KEY")
+SECRET_KEY ='uitjl(-qs710j++b0u06$*@9n@54sov-w$2s93*k9yw9sc42(s'
+
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -58,7 +60,7 @@ ROOT_URLCONF = 'Backyard.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [str(BASE_DIR.joinpath('templates'))],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -122,3 +124,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+LOGIN_REDIRECT_URL = '/'

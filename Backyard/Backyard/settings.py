@@ -23,6 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+SECRET_KEY = 'uitjl(-qs710j++b0u06$*@9n@54sov-w$2s93*k9yw9sc42(s'
+
+#SECRET_KEY = config('SECRET_KEY')
+
 ALLOWED_HOSTS = []
 
 
@@ -116,5 +120,3 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-
-#SECRET_KEY = config('SECRET_KEY')

@@ -48,9 +48,9 @@ There are two types of users for this system: community members and local organi
   **How to get set up**
   To get your django project set up, you must first make sure to have the latest version of Django installed on your device. From the command line, cd into a directory where you want to store code that establishes your Django project, and run this command: $ django-admin startproject mysite
   This creates a mysite directory in your current directory. Startproject sohuld create:
-  - The outer *mysite/* directory.
+  - The outer mysite/ directory.
   - manage.py
-  - The inner *mysite/* directory
+  - The inner mysite/ directory
   - mysite/__init__.py
   - mysite/settings.py
   - mysite/urls.py

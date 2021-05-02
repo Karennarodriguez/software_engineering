@@ -9,17 +9,18 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
-
+import os
 from pathlib import Path
- # import environ
+
+# import environ
 
 # env = environ.Env()
 # environ.Env.read_env()
-#from decouple import config # for secret key
+# from decouple import config # for secret key
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
+TEMPLATES_DIRS = os.path.join(BASE_DIR, 'templates')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
@@ -27,12 +28,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-
-#SECRET_KEY = env("SECRET_KEY")
-SECRET_KEY ='uitjl(-qs710j++b0u06$*@9n@54sov-w$2s93*k9yw9sc42(s'
+# SECRET_KEY = env("SECRET_KEY")
+SECRET_KEY = 'uitjl(-qs710j++b0u06$*@9n@54sov-w$2s93*k9yw9sc42(s'
 
 ALLOWED_HOSTS = ['127.0.0.1']
-
 
 # Application definition
 
@@ -62,7 +61,7 @@ ROOT_URLCONF = 'Backyard.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [str(BASE_DIR.joinpath('templates'))],
+        'DIRS': [str(BASE_DIR.joinpath('templates')), TEMPLATES_DIRS],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -77,7 +76,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Backyard.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
@@ -87,7 +85,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
@@ -107,7 +104,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
@@ -120,7 +116,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/

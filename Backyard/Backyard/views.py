@@ -1,6 +1,5 @@
 # from django.db.models import fields
 # from django.http.response import HttpResponseRedirect
-# from django.shortcuts import render, redirect
 # from django.http import HttpResponse
 # from django.contrib import messages
 # from django.contrib.auth.models import User
@@ -13,3 +12,6 @@
 #
 # def login(request):
 #     return render(request, 'login.html')
+
+
+

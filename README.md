@@ -60,7 +60,8 @@ There are two types of users for this system: community members and local organi
 Now you have a working environment (project). To create an app, you need to be in the same directory as manage.py, and you can run: $ python3 manage.py startapp appname
              
   **How to run tests**
-  Run make tests
+   Run make tests
+  
   **How to run the app**
   To check that the Django project works, run the following command in your outer mysite directory: python3 manage.py runserver
   

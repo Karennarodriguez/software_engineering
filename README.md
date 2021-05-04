@@ -46,7 +46,7 @@ There are two types of users for this system: community members and local organi
     * Another way a user can react to a post created by a local organization. To 'follow' an event means the user is going to attend. The user receive updates and notifications on the event made by the organizations, as well as other users that are attending. A user also has the ability to 'unfollow' an event. The followed event will be saved on the homepage, such that a user may have easy and quick access to it. This has highest priority of all saved posts. 
  
   **How to get set up**
-  To get your django project set up, you must first make sure to have the latest version of Django installed on your device. From the command line, cd into a directory where you want to store code that establishes your Django project, and run this command: $ django-admin startproject mysite
+  * To get your django project set up, you must first make sure to have the latest version of Django installed on your device. From the command line, cd into a directory where you want to store code that establishes your Django project, and run this command: $ django-admin startproject mysite
   This creates a mysite directory in your current directory. Startproject sohuld create:
   - The outer mysite/ directory.
   - manage.py
@@ -60,10 +60,10 @@ There are two types of users for this system: community members and local organi
 Now you have a working environment (project). To create an app, you need to be in the same directory as manage.py, and you can run: $ python3 manage.py startapp appname
              
   **How to run tests**
-   Run make tests
+   * Run make tests
   
   **How to run the app**
-  To check that the Django project works, run the following command in your outer mysite directory: python3 manage.py runserver
+  * To check that the Django project works, run the following command in your outer mysite directory: python3 manage.py runserver
   
   
 

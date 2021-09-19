@@ -1,4 +1,4 @@
-#using template from Prof. Callahan's GitHub- will be changing this code up as we work on the project
+#using template from Prof. Callahan's GitHub - will be changing this code up as we work on the project
 
 export TEMPLATE_DIR = templates
 export MARKDOWN_DIR = md
